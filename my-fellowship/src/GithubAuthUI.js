@@ -13,12 +13,15 @@ import {
 } from "@apollo/client";
 import firebase from "./configs/firebase-config";
 import FirstCard from "./cards/card1";
+<<<<<<< HEAD
 import SecondCard from "./cards/card2";
 import ThirdCard from "./cards/card3";
 import FourthCard from "./cards/card4";
 import FifthCard from "./cards/card5";
 import SixthCard from "./cards/card6";
 
+=======
+>>>>>>> d6681f4 (added live data endpoints and contected graphQL)
 const githubProvider = new firebase.auth.GithubAuthProvider();
 
 function GithubAuthUI() {
