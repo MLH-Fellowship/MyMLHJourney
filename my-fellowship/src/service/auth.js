@@ -5,7 +5,9 @@ const socialMediaAuth = (provider) => {
     .auth()
     .signInWithPopup(provider)
     .then((res) => {
-      return res.user;
+      let userName = res.additionalUserInfo.username;
+      let userToken = res.credential.accessToken;
+      return { userToken, userName };
     })
     .catch((er) => {
       return er;
