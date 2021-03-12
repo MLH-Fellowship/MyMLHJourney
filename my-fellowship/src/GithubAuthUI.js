@@ -13,6 +13,12 @@ import {
 } from "@apollo/client";
 import firebase from "./configs/firebase-config";
 import FirstCard from "./cards/card1";
+import SecondCard from "./cards/card2";
+import ThirdCard from "./cards/card3";
+import FourthCard from "./cards/card4";
+import FifthCard from "./cards/card5";
+import SixthCard from "./cards/card6";
+
 const githubProvider = new firebase.auth.GithubAuthProvider();
 
 function GithubAuthUI() {
@@ -54,6 +60,11 @@ function GithubAuthUI() {
           Sign in with Github
         </button>
         {user.userToken ? <FirstCard /> : null}
+        {user.userToken ? <SecondCard /> : null}
+        {user.userToken ? <ThirdCard /> : null}
+        {user.userToken ? <FourthCard /> : null}
+        {user.userToken ? <FifthCard /> : null}
+        {user.userToken ? <SixthCard /> : null}
       </div>
     </ApolloProvider>
   );
