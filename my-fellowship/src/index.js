@@ -1,10 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import GithubAuth from "./GithubAuth";
+import GithubAuth from "./GithubAuthUI";
+import UserContextProvider from "./context/userContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <GithubAuth />
+    <UserContextProvider>
+      <GithubAuth />
+    </UserContextProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
