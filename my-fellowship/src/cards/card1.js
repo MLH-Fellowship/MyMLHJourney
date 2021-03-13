@@ -2,6 +2,7 @@ import react from "react";
 import { useLazyQuery, useQuery } from "@apollo/react-hooks";
 import { GET_ALL_USER_INFO } from "../data/GraphQL";
 import { useUser } from "../context/userContext";
+import "./styles/card1.css";
 
 function FirstCard() {
   const user = useUser(); //gets!! the value of set user

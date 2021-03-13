@@ -25,7 +25,6 @@ function SecondCard() {
   return (
     <div key={obj.id}>
       <h1>This is 2nd card</h1>
-
       <p>
         {obj.name} by {obj.location}
       </p>

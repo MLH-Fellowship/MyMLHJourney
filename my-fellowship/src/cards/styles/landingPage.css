@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+*,
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+body{
+      margin: 0;
+      overflow-x: hidden;
+      width: 100%;
+}
+.LandingPage {
+    background-image: url('../images/background.svg');
+    background-color: #0C0BC8;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#header-title{
+    font: normal normal normal 92px/105px Gang of Three;
+    font-size: 60px;
+    color: white;
+    line-height: 55pt;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.header-section{
+    margin-left: 18%;
+}
+button{
+    background-color: #DC3223;
+    color:white;
+    font: normal normal bold Aktiv Grotesk;
+    font-weight: medium;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 20px;
+    box-shadow: 0 0 3px #FF0000;
+    height: 50px;
+    text-transform: uppercase;
+    font-family: 'Share Tech';
+    font-weight: bold sans-serif;
+}
+
+button:hover {
+    background-color: #f7f441;
+    box-shadow: 0px 15px 20px #0e19b3;
+    color: #0e19b3;
+    transform: translateY(-7px);
+}
+
+.two-columns{ 
+    background-size: cover;
+    padding: 4rem 2rem; 
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+#globe{ 
+    height: 500px;
+}
+
+.sun {
+    background-image: url('../images/sun.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+
+/* SUN ANIMATION  */
+/* .sun-offset {
+    animation-name: rise-up;
+    animation-duration: 3s;
+}
+
+@media screen and (min-width: 800px) {
+    @keyframes rise-up {
+        from {
+            height: 500px;
+        }
+
+        to {
+            height: 65px;
+        }
+    }
+
+    .sun-offset {
+        height: 65px;
+    }
+
+    .sun {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    @keyframes rise-up {
+        from {
+            height: 500px;
+        }
+
+        to {
+            height: 245px;
+        }
+    }
+
+    .sun-offset {
+        height: 245px;
+    }
+
+    .sun {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    @keyframes rise-up {
+        from {
+            height: 500px;
+        }
+
+        to {
+            height: 370px;
+        }
+    }
+
+    .sun-offset {
+        height: 370px;
+    }
+
+    .sun {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+
+.sun-cont {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -2;
+} */
