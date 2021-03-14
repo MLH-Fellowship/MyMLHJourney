@@ -1,4 +1,10 @@
 import Rreact, { Component } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import "./styles/landingPage.css";
 import Navbar from "../components/navbar";
 import globe from "./images/globe.png";
@@ -71,7 +77,9 @@ class LandingPage extends Component {
             <img src={Conclusion} />
 
             <div className="center-button">
-              <button className="start-my-journey">Start My Journey</button>
+              <Link to="/cards">
+                <button className="start-my-journey">Start My Journey</button>
+              </Link>
             </div>
           </section>
 

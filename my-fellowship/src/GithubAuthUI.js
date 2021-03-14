@@ -12,16 +12,13 @@ import {
   createHttpLink,
 } from "@apollo/client";
 import firebase from "./configs/firebase-config";
-import FirstCard from "./cards/card1";
-import SecondCard from "./cards/card2";
-import ThirdCard from "./cards/card3";
-import FourthCard from "./cards/card4";
-import FifthCard from "./cards/card5";
-import SixthCard from "./cards/card6";
+import { useHistory } from 'react-router-dom';
+import { ParentCard } from "./cards/parentCard";
 
 const githubProvider = new firebase.auth.GithubAuthProvider();
 
 function GithubAuthUI() {
+  const history = useHistory();
   const user = useUser();
   const setUser = useSetUser();
 
@@ -53,19 +50,15 @@ function GithubAuthUI() {
   };
   return (
     <ApolloProvider client={client}>
-      <div>
-        <h1>Github Authentication</h1>
-        <button onClick={() => handleOnClick(githubProvider)}>
-          {" "}
+      {user.userToken ?
+        <ParentCard /> :
+        <div>
+          <h1>Github Authentication</h1>
+          <button onClick={() => handleOnClick(githubProvider)}>
+            {" "}
           Sign in with Github
         </button>
-        {user.userToken ? <FirstCard /> : null}
-        {user.userToken ? <SecondCard /> : null}
-        {user.userToken ? <ThirdCard /> : null}
-        {user.userToken ? <FourthCard /> : null}
-        {user.userToken ? <FifthCard /> : null}
-        {user.userToken ? <SixthCard /> : null}
-      </div>
+        </div>}
     </ApolloProvider>
   );
 }

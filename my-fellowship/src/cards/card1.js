@@ -4,9 +4,10 @@ import { GET_ALL_USER_INFO } from "../data/GraphQL";
 import { useUser } from "../context/userContext";
 import "./styles/card1.css";
 
-function FirstCard() {
+const FirstCard = (props) => {
   const user = useUser(); //gets!! the value of set user
   //think of hooks like a cloud , and when u useUser u get the info from the cloud
+  console.log(props.contributionData);
   console.log(user);
   //put a new var for loading etc so that it dosent clash
   const {
