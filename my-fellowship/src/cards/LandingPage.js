@@ -15,7 +15,6 @@ class LandingPage extends Component {
       <div className="LandingPage">
         <body>
           <Navbar />
-          <h1> asdfasd</h1>
           <section className="two-columns">
             <div className="header-section">
               <h1 id="header-title">
