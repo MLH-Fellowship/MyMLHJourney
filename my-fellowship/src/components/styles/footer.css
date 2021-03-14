@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+.footer {
+    /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    flex-shrink: 0;
+    padding: 20px;
+    background-color: #0C0BC8;
+}
+
+.text {
+  font-family: 'Share Tech';
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+    text-align: center;
+}
+
+.header-text {
+    font-size: 35px;
+    font-size: bold;
+    font-weight: 800;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.p-text {
+    font-size: 25px;
+    font-size: bold;
+}
+
+.hero3 {
+    /* background: url('./pages/landing-page/img/background1.png'); */
+    /* margin-top: -6%; */
+    background-size: cover;
+    padding: 4rem 2rem;
+
+    /* Grid styles */
+    display: grid;
+    align-items: center;
+    /* this is the same as grid-template-rows: 300px 300px; it will create 2 columns with minmax() calculating 
+  automatically the size of the track, based on the width of the viewport,
+   */
+    /* auto-fit keyword allows us to wrap our columns into rows when there’s not enough space in our viewport to fit the 240px minimum value without overflowing the content. */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+/* 
+.logo {
+    width: 30%;
+    height: 40%;
+} */

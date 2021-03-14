@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url(//db.onlinewebfonts.com/c/c6f5218272f98dd91e0742b9c2bdb0a2?family=Gang+of+Three);
+*,
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+body{
+      margin: 0;
+      overflow-x: hidden;
+      width: 100%;
+}
+.LandingPage {
+    background-image: url('../images/background.svg');
+    background-color: #0C0BC8;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#header-title {
+    font: normal normal normal 92px/105px Gang of Three;
+    font-size: 90px;
+    color: white;
+    line-height: 85pt;
+}
+
+p {
+    margin-top: -2%;
+    font-family: 'Share Tech';
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.sun-section{
+    margin-top: -75%;
+}
+
+.header-section{
+    margin-left: 18%;
+}
+
+button{
+    background-color: #DC3223;
+    color:white;
+    font-weight: medium;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 20px;
+    box-shadow: 0 0 3px #FF0000;
+    height: 50px;
+    text-transform: uppercase;
+    font-family: 'Share Tech';
+    font-weight: bold sans-serif;
+}
+
+button:hover {
+    background-color: #f7f441;
+    box-shadow: 0px 15px 20px #0e19b3;
+    color: #0e19b3;
+    transform: translateY(-7px);
+}
+
+.two-columns{ 
+    background-size: cover;
+    padding: 4rem 2rem; 
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    position: relative;
+    z-index: 70;
+}
+
+.center-image{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.hills{
+    margin-top: -8%;
+}
+
+#globe{ 
+    height: 800px;
+    margin-left:30%;
+    overflow: hidden;
+}
+
+.sun {
+    background-image: url('../images/sun.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.center-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.top-overlay{
+    position: relative;
+    z-index: 999;
+}
+/* SUN ANIMATION  */
+
+img.sticky{
+      position: -webkit-sticky;
+      /* Safari */
+      position: sticky;
+      top: 0;
+
+}
+
+#sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    /* background: #ffffff; */
+    /* width: 100px;
+    height: 100px; */
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 0 6px #000; */
+    color: #fff;
+}
+
+.extra,
+#wrapper {
+    width: 75%;
+    margin: auto;
+    /* background-color: #ccc; */
+}
+
+#wrapper {
+    height: 800px;
+}
+
+.extra {
+    height: 100px;
+}
+
+body {
+    font-family: georgia;
+    height: 1000px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.last-section{
+    position: relative;
+    z-index: 20;
+}
+
+@media (min-height: 768px) {
+    #wrapper {
+        height: 2000px;
+    }
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.container .button{
+    position: absolute;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+
+}
+
+.start-my-journey{
+    margin-top: -25%;
+}
