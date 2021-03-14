@@ -13,6 +13,7 @@ import {
 } from "@apollo/client";
 import firebase from "./configs/firebase-config";
 import FirstCard from "./cards/card1";
+import CodeCard from "./cards/codePrIssuesCard/codePrIssues";
 import SecondCard from "./cards/card2";
 import ThirdCard from "./cards/card3";
 import FourthCard from "./cards/card4";
@@ -59,12 +60,7 @@ function GithubAuthUI() {
           {" "}
           Sign in with Github
         </button>
-        {user.userToken ? <FirstCard /> : null}
-        {user.userToken ? <SecondCard /> : null}
-        {user.userToken ? <ThirdCard /> : null}
-        {user.userToken ? <FourthCard /> : null}
-        {user.userToken ? <FifthCard /> : null}
-        {user.userToken ? <SixthCard /> : null}
+        {user.userToken ? <CodeCard/> : null}
       </div>
     </ApolloProvider>
   );
