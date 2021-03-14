@@ -21,24 +21,36 @@ body{
     width: 100%;
 }
 
-#header-title{
+#header-title {
     font: normal normal normal 92px/105px Gang of Three;
-    font-size: 60px;
+    font-size: 90px;
     color: white;
-    line-height: 55pt;
+    line-height: 85pt;
+}
+
+p {
+    margin-top: -2%;
+    font-family: 'Share Tech';
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .center-text{
     text-align: center;
 }
 
+.sun-section{
+    margin-top: -75%;
+}
+
 .header-section{
     margin-left: 18%;
 }
+
 button{
     background-color: #DC3223;
     color:white;
-    font: normal normal bold Aktiv Grotesk;
     font-weight: medium;
     border-style: none;
     outline: none;
@@ -65,10 +77,23 @@ button:hover {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    position: relative;
+    z-index: 70;
+}
+
+.center-image{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.hills{
+    margin-top: -8%;
 }
 
 #globe{ 
-    height: 500px;
+    height: 800px;
+    margin-left:30%;
+    overflow: hidden;
 }
 
 .sun {
@@ -78,80 +103,89 @@ button:hover {
     margin: 0 auto;
 }
 
+.center-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-/* SUN ANIMATION  */
-/* .sun-offset {
-    animation-name: rise-up;
-    animation-duration: 3s;
 }
 
-@media screen and (min-width: 800px) {
-    @keyframes rise-up {
-        from {
-            height: 500px;
-        }
-
-        to {
-            height: 65px;
-        }
-    }
-
-    .sun-offset {
-        height: 65px;
-    }
-
-    .sun {
-        width: 300px;
-        height: 300px;
-    }
-}
-
-@media screen and (max-width: 799px) {
-    @keyframes rise-up {
-        from {
-            height: 500px;
-        }
-
-        to {
-            height: 245px;
-        }
-    }
-
-    .sun-offset {
-        height: 245px;
-    }
-
-    .sun {
-        width: 200px;
-        height: 200px;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    @keyframes rise-up {
-        from {
-            height: 500px;
-        }
-
-        to {
-            height: 370px;
-        }
-    }
-
-    .sun-offset {
-        height: 370px;
-    }
-
-    .sun {
-        width: 130px;
-        height: 130px;
-    }
-}
-
-
-.sun-cont {
+.top-overlay{
     position: relative;
-    top: 0;
-    left: 0;
-    z-index: -2;
-} */
+    z-index: 999;
+}
+/* SUN ANIMATION  */
+
+img.sticky{
+      position: -webkit-sticky;
+      /* Safari */
+      position: sticky;
+      top: 0;
+
+}
+
+#sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    /* background: #ffffff; */
+    /* width: 100px;
+    height: 100px; */
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 0 6px #000; */
+    color: #fff;
+}
+
+.extra,
+#wrapper {
+    width: 75%;
+    margin: auto;
+    /* background-color: #ccc; */
+}
+
+#wrapper {
+    height: 800px;
+}
+
+.extra {
+    height: 100px;
+}
+
+body {
+    font-family: georgia;
+    height: 1000px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.last-section{
+    position: relative;
+    z-index: 20;
+}
+
+@media (min-height: 768px) {
+    #wrapper {
+        height: 2000px;
+    }
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.container .button{
+    position: absolute;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+
+}
+
+.start-my-journey{
+    margin-top: -25%;
+}
