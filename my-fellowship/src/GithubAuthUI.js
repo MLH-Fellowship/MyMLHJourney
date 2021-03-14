@@ -59,12 +59,12 @@ function GithubAuthUI() {
           {" "}
           Sign in with Github
         </button>
-        {user.userToken ? <FirstCard/> : null}
-        {user.userToken ? <SecondCard/> : null}
-        {user.userToken ? <ThirdCard/> : null}
-        {user.userToken ? <FourthCard/> : null}
-        {user.userToken ? <FifthCard/> : null}
-        {user.userToken ? <SixthCard/> : null}
+        {user.userToken ? <FirstCard /> : null}
+        {user.userToken ? <SecondCard /> : null}
+        {user.userToken ? <ThirdCard /> : null}
+        {user.userToken ? <FourthCard /> : null}
+        {user.userToken ? <FifthCard /> : null}
+        {user.userToken ? <SixthCard /> : null}
       </div>
     </ApolloProvider>
   );
