@@ -12,22 +12,24 @@ const Header = () => {
     <div className="header">
       <div className="logo-nav">
         <div className="logo-container logo">
-          <a href="#">
+          <a className="option-color" href="#">
             <img href="#main" className="logo" src={logo}></img>
           </a>
         </div>
-        <ul className={click ? "nav-options active" : "nav-options"}>
-          <li className="option" onClick={closeMobileMenu}>
-            <a href="#about">ABOUT</a>
-          </li>
-          <li className="option" onClick={closeMobileMenu}>
-            <a href="#fellowship">FELLOWSHIP</a>
-          </li>
+        <div>
+          <ul className={click ? "nav-options active" : "nav-options"}>
+            <li className="option link" onClick={closeMobileMenu}>
+              <a href="#about">ABOUT</a>
+            </li>
+            <li className="option link" onClick={closeMobileMenu}>
+              <a href="#fellowship">FELLOWSHIP</a>
+            </li>
 
-          <li className="option" onClick={closeMobileMenu}>
-            <button href="#journey">MY JOURNEY</button>
-          </li>
-        </ul>
+            <li className="option" onClick={closeMobileMenu}>
+              <button href="#journey">Start</button>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div className="mobile-menu" onClick={handleClick}>
