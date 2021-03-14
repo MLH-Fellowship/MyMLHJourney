@@ -50,15 +50,16 @@ function GithubAuthUI() {
   };
   return (
     <ApolloProvider client={client}>
-      {user.userToken ?
-        <ParentCard /> :
+      {
+        user.userToken ? <ParentCard /> :
         <div>
           <h1>Github Authentication</h1>
           <button onClick={() => handleOnClick(githubProvider)}>
             {" "}
-          Sign in with Github
-        </button>
-        </div>}
+            Sign in with Github
+          </button>
+        </div>
+      }
     </ApolloProvider>
   );
 }
