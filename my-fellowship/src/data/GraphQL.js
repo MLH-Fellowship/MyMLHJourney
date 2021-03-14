@@ -32,17 +32,46 @@ export const GET_ALL_USER_INFO = gql`
 
 export const GET_CONTRIBUTION_INFO = gql`
   query ($username: String!) {
-  search (query: "org:MLH-Fellowship is:pr author:$username", type:ISSUE, last: 100) {
-    edges {
-      node {
-        ... on PullRequest {
-          url
-          createdAt
-          additions
-          deletions
-          headRepository {
+    search (query: "org:MLH-Fellowship is:pr author:$username", type:ISSUE, last: 100) {
+      edges {
+        node {
+          ... on PullRequest {
+            url
+            createdAt
+            additions
+            deletions
+            headRepository {
+              name
+              stargazers {
+                totalCount
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`;
+
+export const GET_MLH_INFO = gql`
+  query ($username: String!) {
+    organization(login: "MLH-Fellowship") {
+      teams(first: 100, userLogins: [""username]) {
+        edges {
+          node {
             name
-            stargazers {
+            members {
+              totalCount
+              nodes {
+                name
+                login
+                avatarUrl
+                email
+                location
+                url
+              }
+            }
+            repositories {
               totalCount
             }
           }
@@ -50,33 +79,4 @@ export const GET_CONTRIBUTION_INFO = gql`
       }
     }
   }
-}
-`;
-
-export const GET_MLH_INFO = gql`
-  query ($username: String!) {
-  organization(login: "MLH-Fellowship") {
-    teams(first: 100, userLogins: ["$username"]) {
-      edges {
-        node {
-          name
-          members {
-            totalCount
-            nodes {
-              name
-              login
-              avatarUrl
-              email
-              location
-              url
-            }
-          }
-          repositories {
-            totalCount
-          }
-        }
-      }
-    }
-  }
-}
 `;
