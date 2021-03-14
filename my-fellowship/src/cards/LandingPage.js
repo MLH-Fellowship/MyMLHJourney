@@ -15,19 +15,18 @@ class LandingPage extends Component {
       <div className="LandingPage">
         <body>
           <Navbar />
+          <h1> asdfasd</h1>
           <section className="two-columns">
             <div className="header-section">
               <h1 id="header-title">
                 Welcome to <br /> Your MLH Journey
               </h1>
-
               <button>TRACK MY JOURNEY</button>
             </div>
             <div>
               <img id="globe" src={globe} />
             </div>
           </section>
-
           <img className="hills" src={hills} />
 
           <br />
