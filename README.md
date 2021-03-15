@@ -5,9 +5,6 @@
     <img src="MyMLHJourneyLogo.png" alt="Logo" >
   </a>
 
-  <h3 align="center">My MLH Journey</h3>
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
