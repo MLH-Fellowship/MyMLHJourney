@@ -16,7 +16,7 @@ const Footer = () => {
                 {" "}
                 Contact Us
               </p>
-              <p class="p-text text pointer">legadoteam@gmail.com</p>
+              <p class="p-text text pointer">MLH Fellows Spring 2021</p>
             </article>
             <article>
               {/* <p class="header-text text pointer"> Join Discord</p> */}

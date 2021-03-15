@@ -168,10 +168,22 @@ h4 {
     z-index: 20;
 }
 
+  #main-title {
+      /* margin-top: 20%; */
+      font: normal normal normal 92px/105px Gang of Three;
+      font-size: 35px;
+      color: white;
+      line-height: 60pt;
+      text-align: center;
+      /* margin-left: -15%; */
+  }
+
+
 @media (min-height: 768px) {
     #wrapper {
         height: 2000px;
     }
+
 }
 
 /* Container needed to position the button. Adjust the width as needed */
@@ -188,5 +200,226 @@ h4 {
 }
 
 .start-my-journey{
-    margin-top: -25%;
+    margin-top: -5%;
 }
+
+@media (max-width:2000px) {
+ 
+    #globe {
+        height: 900px;
+        align-items: center;
+        margin-left: 5%;
+        /* margin-left: 30%; */
+        overflow: hidden;
+        margin-top: 10%;
+    }
+
+    img.data {
+        width: 95%;
+    }
+
+       #moving-circles {
+           margin-top: 30%;
+       }
+}
+
+@media (max-width: 1500px) {
+     #header-title {
+         /* margin-top: 20%; */
+         font: normal normal normal 92px/105px Gang of Three;
+         font-size: 50px;
+         color: white;
+         line-height: 60pt;
+         text-align: left;
+         /* margin-left: -15%; */
+     }
+
+    #globe {
+        height: 600px;
+        align-items: center;
+        margin-left: 5%;
+        /* margin-left: 30%; */
+        overflow: hidden;
+        margin-top: 10%;
+    }
+
+    img.data {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1200px) {
+     #header-title {
+         /* margin-top: 20%; */
+         font: normal normal normal 92px/105px Gang of Three;
+         font-size: 45px;
+         color: white;
+         line-height: 60pt;
+         text-align: left;
+         /* margin-left: -15%; */
+     }
+
+     #globe {
+         height: 500px;
+         align-items: center;
+         margin-left: 5%;
+         /* margin-left: 30%; */
+         overflow: hidden;
+         margin-top: 10%;
+     }
+
+     img.data{
+         width: 90%;
+     }
+}
+
+@media (max-width: 1085px) {
+     #header-title {
+         /* margin-top: 20%; */
+         font: normal normal normal 92px/105px Gang of Three;
+         font-size: 55px;
+         color: white;
+         line-height: 60pt;
+         text-align: left;
+         /* margin-left: -15%; */
+     }
+    #globe {
+        height:400px;
+        align-items: center;
+        margin-left: 5%;
+        /* margin-left: 30%; */
+        overflow: hidden;
+        margin-top: 10%;
+    }
+       #wrapper {
+           height: 1500px;
+       }
+
+}
+
+@media (max-width: 750px) {
+     .two-columns {
+         margin-top: 5%;
+     }
+     #header-title {
+         /* margin-top: 20%; */
+         font: normal normal normal 92px/105px Gang of Three;
+         font-size: 50px;
+         color: white;
+         line-height: 40pt;
+         text-align: left;
+         /* margin-left: -15%; */
+     }
+    #globe {
+        height: 300px;
+        align-items: center;
+        margin-left: 5%;
+        /* margin-left: 30%; */
+        overflow: hidden;
+        margin-top: 10%;
+    }
+
+    #moving-circles {
+        margin-top: 150%;
+    }
+
+    .data {
+        margin-top: 5%;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .two-columns{
+        margin-top: 5%;
+    }
+    #header-title {
+        /* margin-top: 20%; */
+        font: normal normal normal 92px/105px Gang of Three;
+        font-size: 40px;
+        color: white;
+        line-height: 35pt;
+        text-align: left;
+        /* margin-left: -15%; */
+    }
+
+    #globe {
+        height: 300px;
+        align-items: center;
+        margin-left: 5%;
+        /* margin-left: 30%; */
+        overflow: hidden;
+        margin-top: 10%;
+    }
+
+    .sun {
+        background-image: url('../images/sun.png');
+        background-size: auto 50%;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+    #moving-circles {
+        margin-top: 100%;
+    }
+}
+
+@media (max-width: 540px) {
+    #header-title {
+        margin-top: 20%;
+        font: normal normal normal 92px/105px Gang of Three;
+        font-size: 40px;
+        color: white;
+        line-height: 40pt;
+        text-align: center;
+       margin-left: -15%;
+    }
+
+    #globe {
+        height: 400px;
+        align-items: center;
+        margin-left: 5%;
+       
+        /* margin-left: 30%; */
+        overflow: hidden;
+        margin-top: 10%;
+    }
+
+    #moving-circles{
+        margin-top: 80%;
+    }
+
+    .data {
+        margin-top: 4%;
+    }
+}
+
+@media (max-width: 350px) {
+    #header-title {
+        margin-top: 20%;
+        font: normal normal normal 92px/105px Gang of Three;
+        font-size: 35px;
+        color: white;
+        line-height: 40pt;
+        text-align: center;
+    }
+    #globe {
+        height: 300px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-left: 30%; */
+        overflow: hidden;
+        margin-top: 10%;
+    }
+
+    .data{
+        margin-left: -12%;
+        margin-top: 4%;
+    }
+
+    .two-columns{
+        margin-top: 2%;
+    }
+}
+
