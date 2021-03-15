@@ -21,7 +21,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contributors">Contributors</a></li>
@@ -36,7 +35,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project ✨🗺️ 
 
 This project helps fellows to track their journey so far in the fellowship. We leverage on personalized GitHub data that is fetched when a fellow logins in using GitHub authentication. The project will help fellows focus on their goals in the fellowship and pod leaders can using use this tool to monitor fellow's progress.
 
@@ -53,7 +52,21 @@ Some of the personalized data/metrics provided to a fellow are:
 
 A list of commonly used resources that we find helpful are listed in the acknowledgements.
 
-### Built With
+## Screenshots of the web app
+
+<p align="center">
+    <img src="https://media.giphy.com/media/bssmWD54LbOWHqzz7b/giphy.gif" alt="Logo">
+<p/>
+
+<p align="center">
+    <img src="https://media.giphy.com/media/xdHOO1wfCnQTOGAf0K/giphy.gif" alt="Logo">
+<p/>  
+
+<p align="center">
+    <img src="https://media.giphy.com/media/FDjXr2F6VXLf64VBvz/giphy.gif" alt="Logo">
+<p/>
+
+## Built With 💻☀️
 
 * [GraphQL](https://graphql.org/)
 * [React](https://reactjs.org/)
@@ -90,12 +103,6 @@ This section will work you through how you can get started with the project.
    npm start
    ```
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Demo goes here
-
 <!-- ROADMAP -->
 
 <!-- CONTRIBUTING -->
@@ -125,14 +132,14 @@ Distributed under the MIT License. See `LICENSE` for more information.
 1. Sarthak Khattar - sarthakoct@gmail.com
 2. Anastasiya Uraleva - anastasiyauraleva@gmail.com
 3. Grace Omotoso - gracomot@gmail.com
-4. Angelina Gasharova
+4. Angelina Gasharova - andji.gash@gmail.com
 
 Project Link: [https://github.com/MLH-Fellowship/MyMLHJourney](https://github.com/MLH-Fellowship/MyMLHJourney)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+## Acknowledgements ✔️
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [AdobeXd](https://www.adobe.com/)
 * [Figma](https://www.figma.com/)
