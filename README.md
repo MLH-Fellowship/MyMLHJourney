@@ -65,14 +65,6 @@ A list of commonly used resources that we find helpful are listed in the acknowl
 
 This section will work you through how you can get started with the project.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
 1. Get a free API Key at [https://example.com](https://example.com)
