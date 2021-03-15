@@ -5,7 +5,7 @@ import { useUser } from "../context/userContext";
 const SecondCard = (props) => {
   let obj = props.contributionData;
 
-  console.log(obj)
+  console.log(props);
 
   return (
     <div>
