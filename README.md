@@ -63,7 +63,7 @@ This section will work you through how you can get started with the project.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. You will need the GitHub `CLIENT_ID` and `CLIENT_SECRET` for this project.
 2. Clone the repo
    ```sh
    git clone https://github.com/MLH-Fellowship/MyMLHJourney.git
