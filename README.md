@@ -101,18 +101,9 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
+Demo goes here
 
 <!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -135,11 +126,14 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+## Contributors
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+1. Sarthak Khattar
+2. Anastasiya Uraleva 
+3. Grace Omotoso - gracomot@gmail.com
+4. Angelina 
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/MLH-Fellowship/MyMLHJourney](https://github.com/MLH-Fellowship/MyMLHJourney)
 
 
 
