@@ -37,14 +37,12 @@
 <!-- ABOUT THE PROJECT -->
 # About The Project ✨🗺️ 
 
-This project helps fellows to track their journey so far in the fellowship. We leverage on personalized GitHub data that is fetched when a fellow logins in using GitHub authentication. The project will help fellows focus on their goals in the fellowship and pod leaders can using use this tool to monitor fellow's progress.
+This project helps fellows to track their journey so far in the fellowship and showcase their progress. We leverage on personalized GitHub data that is fetched when a fellow logins in using GitHub authentication. The project will help fellows focus on their goals in the fellowship and pod leaders can using use this tool to monitor fellow's progress.
 
 Some of the personalized data/metrics provided to a fellow are:
 * User profile picture
 * User profile name
 * User location
-* Pod-mates
-* Mentors
 * Number of issues
 * Number of commits
 * Number of Pull Requests
