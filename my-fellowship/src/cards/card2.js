@@ -2,6 +2,8 @@ import react from "react";
 import { useLazyQuery, useQuery } from "@apollo/react-hooks";
 import { useUser } from "../context/userContext";
 import SecondCardBackground from "./images/second-card-background.gif";
+import CountUp from "react-countup";
+
 import "./styles/card2.css";
 
 const SecondCard = (props) => {
@@ -20,7 +22,9 @@ const SecondCard = (props) => {
   let prDates = [];
   // Repositories contributed to
   let repoList = [];
-
+  console.log(obj);
+  console.log(numOfPRs);
+  console.log(repoList);
   for (var i = 0; i < obj.search.edges.length; i++) {
     let prObj = obj.search.edges[i].node;
 
@@ -29,7 +33,7 @@ const SecondCard = (props) => {
 
     if (!repoList.includes(prObj.headRepository.name)) {
       repoList.push(prObj.headRepository.name);
-    };
+    }
 
     linesAdded += prObj.additions;
     linesDeleted += prObj.deletions;
@@ -37,29 +41,36 @@ const SecondCard = (props) => {
 
   return (
     <div>
-      <body className="ThirdCard">
-        <section className="third-card-data">
+      <body>
+        <section className="second-card-data">
           <div id="flexbox">
-            <div>
-              <h1 className="counter-numbers">dfsd</h1>
-              <p className="title">Standups</p>
+            <div className="left-al">
+              <h1 className="card2-nums">{linesAdded}</h1>
+              <p>
+                LINES OF CODE <br /> ADDED
+              </p>
             </div>
-            <div>
-              <h1 className="counter-numbers">fdsdf</h1>
-              <p className="title">Meeting Hours</p>
+            <div className="right-al">
+              <h1 className="card2-nums">{linesDeleted}</h1>
+              <p>
+                LINES OF CODE <br /> DELETED
+              </p>
             </div>
           </div>
           <div id="flexbox" className="flexbox-gap">
-            <div>
-              <h1 className="counter-numbers">dfsd</h1>
-              <p className="title">Standups</p>
+            <div className="left-al">
+              <h1 className="card2-nums">{numOfPRs}</h1>
+              <p>
+                NUMBER OF PULL <br /> REQUESTS
+              </p>
             </div>
-            <div>
-              <h1 className="counter-numbers">fdsdf</h1>
-              <p className="title">Meeting Hours</p>
+            <div className="right-al">
+              <h1 className="repos extra-right">{` ${repoList[0]} ${repoList[1]}  `}</h1>
+              <p className="extra-right ">Repositories you committed to</p>
             </div>
           </div>
         </section>
+
         <img clasName="third-card-background" src={SecondCardBackground} />
       </body>
     </div>

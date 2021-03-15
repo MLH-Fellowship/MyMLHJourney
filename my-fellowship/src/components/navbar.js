@@ -15,16 +15,20 @@ const Header = () => {
         <div className="logo-nav">
           <div className="logo-container logo">
             <a className="option-color" href="#">
-              <img href="#main" className="logo" src={logo}></img>
+              <img
+                href="https://mlh.io/about"
+                className="logo"
+                src={logo}
+              ></img>
             </a>
           </div>
           <div>
             <ul className={click ? "nav-options active" : "nav-options"}>
               <li className="option link" onClick={closeMobileMenu}>
-                <a href="#about">ABOUT</a>
+                <a href="https://mlh.io/about">ABOUT</a>
               </li>
               <li className="option link" onClick={closeMobileMenu}>
-                <a href="#fellowship">FELLOWSHIP</a>
+                <a href="https://fellowship.mlh.io/">FELLOWSHIP</a>
               </li>
 
               <li className="option" onClick={closeMobileMenu}>

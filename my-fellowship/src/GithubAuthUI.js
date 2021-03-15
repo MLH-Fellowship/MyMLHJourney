@@ -12,8 +12,10 @@ import {
   createHttpLink,
 } from "@apollo/client";
 import firebase from "./configs/firebase-config";
-import { useHistory } from 'react-router-dom';
+import { useHistory } from "react-router-dom";
 import { ParentCard } from "./cards/parentCard";
+import BackgroundLogin from "./cards/images/login-background.gif";
+import "./GithubAuthUI.css";
 
 const githubProvider = new firebase.auth.GithubAuthProvider();
 
@@ -50,16 +52,21 @@ function GithubAuthUI() {
   };
   return (
     <ApolloProvider client={client}>
-      {
-        user.userToken ? <ParentCard /> :
-        <div>
-          <h1>Github Authentication</h1>
-          <button onClick={() => handleOnClick(githubProvider)}>
-            {" "}
-            Sign in with Github
-          </button>
+      {user.userToken ? (
+        <ParentCard />
+      ) : (
+        <div className="github-auth">
+          <section className="auth-section">
+            <h1 className="main-title">Github Authentication</h1>
+            <button onClick={() => handleOnClick(githubProvider)}>
+              {" "}
+              Sign in with Github
+            </button>
+          </section>
+
+          <img className="github-background" src={BackgroundLogin} />
         </div>
-      }
+      )}
     </ApolloProvider>
   );
 }

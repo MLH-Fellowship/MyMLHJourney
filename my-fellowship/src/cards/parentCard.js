@@ -147,6 +147,7 @@ export const ParentCard = () => {
     <FirstCard userData={userData} />,
     <SecondCard contributionData={contributionData} />,
     <ThirdCard mlhData={mlhData} />,
+    <FourthCard mlhData={mlhData} />,
   ];
   var backgroundColors = []; // Add background colors for each component
   for (var i = 0; i < ids.length; i++) {
