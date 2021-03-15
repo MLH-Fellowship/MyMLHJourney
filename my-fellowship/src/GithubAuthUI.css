@@ -1,0 +1,18 @@
+img{
+      max-width:100%;
+      height:auto;
+}
+
+.auth-section{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-left: -10%;
+}
+
+h1.main-title{
+    color:white;
+      font: normal normal normal 92px/105px Gang of Three;
+      font-size: 35px;
+}

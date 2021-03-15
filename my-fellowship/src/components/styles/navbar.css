@@ -1,0 +1,234 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background-color:#0D0BC8;
+    /* background-image: url('../images/navbar-bk.png'); */
+    background-size: cover;
+    /* margin-left: -7%; */
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    height: 100px;
+    font-size: 35px;
+    font-weight: bold;
+    z-index: 9999;
+    background-position: center center;
+    /* Background image doesn’t tile */
+    background-repeat: no-repeat; 
+}
+
+.option{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    width:100px;
+}
+
+.link{
+    margin-top: 5%;
+}
+a {
+    color: #F6F5FB;
+    font-family: 'Share Tech';
+}
+.logo {
+    width: 200px;
+    height: 64px;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 5%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 100px;
+    height: 45px;
+}
+
+.nav-options {
+    padding-left: 80x;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 70px;
+    list-style-type: none;
+    align-items: left;
+    /* margin-left: 110%; */
+}
+
+a{
+    text-decoration: none;
+}
+.mobile-option {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.signin-up {
+    display: flex;
+    padding: 0px 5px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.sign-in {
+    padding-right: 50px;
+    align-self: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.option:hover {
+    color: #DC3223;
+    text-decoration: none;
+    transition: opacity 2.85s, transform 0.85s;
+}
+
+#start-button{
+    width: 120px;
+
+}
+
+
+@media (min-width: 2501px) {
+    .nav-options {
+        padding-left: 80x;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 70px;
+        list-style-type: none;
+        align-items: right;
+        margin-left: 320%;
+
+    }
+}
+
+@media (max-width: 2500px) {
+    .nav-options {
+        padding-left: 80x;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 70px;
+        list-style-type: none;
+        align-items: right;
+        margin-left: 280%;
+
+    }
+}
+
+
+@media (max-width: 2000px) {
+    .nav-options {
+        padding-left: 80x;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 70px;
+        list-style-type: none;
+        align-items: right;
+        margin-left: 190%;
+        
+    }
+}
+
+@media (max-width: 1550px) {
+    .nav-options {
+        padding-left: 80x;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 70px;
+        list-style-type: none;
+        align-items: left;
+        margin-left: 110%;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .nav-options {
+        padding-left: 80x;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 70px;
+        list-style-type: none;
+        align-items: left;
+        margin-left: 75%;
+    }
+}
+
+
+/*Desktop View*/
+@media (max-width: 1087px) {
+
+    /*Mobile View */
+    .header {
+        padding: 0px 10px;
+        background-image: none;
+        background-color: #0e19b3;
+    }
+
+    .nav-options {
+        display: flex;
+        width: 100%;
+        height: 350px;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 0;
+        transition: all 0.5s ease;
+        flex-direction: column;
+        list-style-type: none;
+        text-decoration: none;
+        grid-gap: 0px;
+    }
+
+    .nav-options.active {
+        background: #F6F5FB;
+
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99999;
+        align-content: center;
+        padding-left: 0px;
+    }
+
+    .logo {
+        width: 6rem;
+        height: 3.5rem;
+    }
+
+    .menu-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .option {
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        height: 10vw;
+        padding: 30px 0px;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+}
+

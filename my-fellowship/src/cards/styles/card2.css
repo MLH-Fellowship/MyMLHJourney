@@ -1,0 +1,79 @@
+img{
+       max-width:100%;
+       height:auto;
+}
+
+ .second-card-data {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+
+} 
+
+.two-columns{
+        background-size: cover;
+        padding: 4rem 2rem;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        position: relative;
+}
+.card2-nums{
+font-size: 58px;
+color: white;
+font: normal normal normal 92px/105px Gang of Three;
+}
+
+#flexbox {
+    display: flex;
+    /* height: 100%;
+    width: 100%; */
+    /* column-gap: 300px; */
+}
+
+.left-al{
+    margin-left: -50%;
+}
+
+.right-al {
+    margin-left: 100%;
+}
+
+.extra-right{
+    margin-left:70%;
+}
+
+#flexbox>div {
+    /* border: 1px solid green;
+    background-color: lime; */
+    flex: auto;
+    width: 250px;
+}
+
+
+.flexbox-gap{
+    margin-top: 5%;
+}
+
+.repos{
+    color: white;
+    width: 30%;
+    font-size: 55px;
+    font-family: 'Share Tech';
+    text-align: center;
+}
+
+#HASH {
+    width: 100%;
+}
+
+#HASH div {
+    width: 49%;
+    display: inline-block;
+}
+
+#right {
+    text-align: right;
+    margin-right: -10%;
+}

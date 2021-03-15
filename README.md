@@ -37,6 +37,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
 This project helps fellows to track their journey so far in the fellowship. We leverage on personalized GitHub data that is fetched when a fellow logins in using GitHub authentication. The project will help fellows focus on their goals in the fellowship and pod leaders can using use this tool to monitor fellow's progress.
 
 Some of the personalized data/metrics provided to a fellow are:
@@ -118,6 +119,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <!-- CONTACT -->
+
 ## Contributors
 
 1. Sarthak Khattar - sarthakoct@gmail.com
