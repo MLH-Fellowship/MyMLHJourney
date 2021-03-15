@@ -44,7 +44,7 @@ Some of the personalized data/metrics provided to a fellow are:
 * Number of issues
 * Number of commits
 * Number of Pull Requests
-* Lines of cde written
+* Lines of code written
 
 A list of commonly used resources that we find helpful are listed in the acknowledgements.
 
