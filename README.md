@@ -24,7 +24,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contributors">Contributors</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
@@ -54,8 +54,6 @@ A list of commonly used resources that we find helpful are listed in the acknowl
 * [React](https://reactjs.org/)
 * [JavaScript](https://www.javascript.com/)
 * [Firebase](https://https://firebase.google.com/)
-* [AdobeXd](https://www.adobe.com/)
-
 
 
 <!-- GETTING STARTED -->
@@ -130,13 +128,9 @@ Project Link: [https://github.com/MLH-Fellowship/MyMLHJourney](https://github.co
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
+* [AdobeXd](https://www.adobe.com/)
+* [Figma](https://www.figma.com/)
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
+* [Gang of Three](https://www.fontzillion.com/fonts/vic-fieger/gang-of-three)
+* [Animation Made Easy](https://loading.io/)
