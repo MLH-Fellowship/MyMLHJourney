@@ -71,7 +71,7 @@ class LandingPage extends Component {
           <section className="last-section">
             <img src={Conclusion} />
 
-            <div className="center-button">
+            <div className="center-button start-my-journey">
               <Link to="/cards">
                 <button className="start-my-journey">Start My Journey</button>
               </Link>

@@ -104,6 +104,47 @@ a{
 
 }
 
+
+@media (min-width: 2501px) {
+    .nav-options {
+        padding-left: 80x;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 70px;
+        list-style-type: none;
+        align-items: right;
+        margin-left: 320%;
+
+    }
+}
+
+@media (max-width: 2500px) {
+    .nav-options {
+        padding-left: 80x;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 70px;
+        list-style-type: none;
+        align-items: right;
+        margin-left: 280%;
+
+    }
+}
+
+
+@media (max-width: 2000px) {
+    .nav-options {
+        padding-left: 80x;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 70px;
+        list-style-type: none;
+        align-items: right;
+        margin-left: 190%;
+        
+    }
+}
+
 @media (max-width: 1550px) {
     .nav-options {
         padding-left: 80x;

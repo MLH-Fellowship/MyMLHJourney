@@ -200,7 +200,27 @@ h4 {
 }
 
 .start-my-journey{
-    margin-top: -25%;
+    margin-top: -5%;
+}
+
+@media (max-width:2000px) {
+ 
+    #globe {
+        height: 900px;
+        align-items: center;
+        margin-left: 5%;
+        /* margin-left: 30%; */
+        overflow: hidden;
+        margin-top: 10%;
+    }
+
+    img.data {
+        width: 95%;
+    }
+
+       #moving-circles {
+           margin-top: 30%;
+       }
 }
 
 @media (max-width: 1500px) {
