@@ -121,7 +121,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contributors
 
 1. Sarthak Khattar
-2. Anastasiya Uraleva 
+2. Anastasiya Uraleva - anastasiyauraleva@gmail.com
 3. Grace Omotoso - gracomot@gmail.com
 4. Angelina 
 
