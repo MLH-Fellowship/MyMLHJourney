@@ -1,0 +1,42 @@
+img{
+       max-width:100%;
+       height:auto;
+}
+
+.second-card-data {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+}
+
+.two-columns{
+        background-size: cover;
+        padding: 4rem 2rem;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        position: relative;
+       
+}
+
+
+#flexbox {
+    display: flex;
+    /* height: 100px; */
+    /* width: 200px; */
+    column-gap: 100%;
+}
+
+#flexbox>div {
+    /* border: 1px solid green;
+    background-color: lime; */
+    flex: auto;
+    width: 300px;
+}
+
+
+.flexbox-gap{
+    margin-top: 5%;
+}
