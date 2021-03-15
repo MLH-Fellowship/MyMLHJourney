@@ -116,10 +116,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contributors
 
-1. Sarthak Khattar
+1. Sarthak Khattar - sarthakoct@gmail.com
 2. Anastasiya Uraleva - anastasiyauraleva@gmail.com
 3. Grace Omotoso - gracomot@gmail.com
-4. Angelina 
+4. Angelina Gasharova
 
 Project Link: [https://github.com/MLH-Fellowship/MyMLHJourney](https://github.com/MLH-Fellowship/MyMLHJourney)
 
