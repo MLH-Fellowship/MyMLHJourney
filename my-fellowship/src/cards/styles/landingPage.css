@@ -246,6 +246,10 @@ h4 {
     img.data {
         width: 95%;
     }
+
+     #moving-circles {
+         margin-top: 10%;
+     }
 }
 
 @media (max-width: 1200px) {
@@ -271,6 +275,11 @@ h4 {
      img.data{
          width: 90%;
      }
+
+       #moving-circles {
+           margin-top: 70%;
+       }
+
 }
 
 @media (max-width: 1085px) {
@@ -294,6 +303,11 @@ h4 {
        #wrapper {
            height: 1500px;
        }
+
+        #moving-circles {
+            margin-top: 10%;
+        }
+
 
 }
 
@@ -320,7 +334,7 @@ h4 {
     }
 
     #moving-circles {
-        margin-top: 150%;
+        margin-top: 120%;
     }
 
     .data {

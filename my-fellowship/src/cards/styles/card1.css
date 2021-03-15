@@ -33,6 +33,8 @@ img{
     width: 60%;
     display: flex;
     align-items: center;
+    box-shadow: 0 0 4px #FF0000;
+
 }
 p.location {
     margin-left: 25%;

@@ -8,7 +8,10 @@ import MovingCircles from "./images/moving-circles2.gif";
 import Footer from "../components/footer.js";
 import sun from "./images/sun.png";
 import hills from "./images/hills.png";
-import card from "./images/card.png";
+import card1 from "./images/track_contributions.png";
+import card2 from "./images/track_people.png";
+import card3 from "./images/track_progress.png";
+import card4 from "./images/profile_overview.png";
 
 class LandingPage extends Component {
   render() {
@@ -21,7 +24,9 @@ class LandingPage extends Component {
               <h1 id="header-title" className="mlh-journey">
                 Welcome to Your MLH Journey
               </h1>
-              <button>TRACK MY JOURNEY</button>
+              <Link to="/cards">
+                <button href="#link-start-journey">TRACK MY JOURNEY</button>
+              </Link>
             </div>
             <div>
               <img id="globe" src={globe} />
@@ -46,19 +51,19 @@ class LandingPage extends Component {
 
             <section className="two-columns ">
               <div className="center-image">
-                <img className="data" src={card} />
+                <img className="data" src={card2} />
               </div>
               <div className="center-image">
-                <img className="data" src={card} />
+                <img className="data" src={card4} />
               </div>
             </section>
 
             <section className="two-columns">
               <div className="center-image">
-                <img className="data" src={card} />
+                <img className="data" src={card3} />
               </div>
               <div className="center-image">
-                <img className="data" src={card} />
+                <img className="data" src={card1} />
               </div>
             </section>
           </div>
@@ -68,16 +73,16 @@ class LandingPage extends Component {
             <img id="moving-circles" src={MovingCircles} />
             <p>It is time to discover your journey</p>
           </section>
-          <section className="last-section">
-            <img src={Conclusion} />
-
-            <div className="center-button start-my-journey">
-              <Link to="/cards">
-                <button className="start-my-journey">Start My Journey</button>
-              </Link>
-            </div>
-          </section>
-
+          <a id="link-start-journey">
+            <section className="last-section">
+              <img src={Conclusion} />
+              <div className="center-button start-my-journey">
+                <Link to="/cards">
+                  <button className="start-my-journey">Start My Journey</button>
+                </Link>
+              </div>
+            </section>
+          </a>
           <Footer />
         </body>
       </div>
