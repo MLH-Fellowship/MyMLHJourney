@@ -80,19 +80,22 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/MLH-Fellowship/MyMLHJourney.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. CD into the project directory 
+3. CD into the project directory 
    ```sh
    cd MYMLHJourney;
    ```
-5. CD into my-fellowship folder 
+4. CD into my-fellowship folder 
    ```sh
    cd my-fellowship;
    ```
-
+5. Install NPM packages
+   ```sh
+   npm install
+   ```
+6. Start the Server
+   ```sh
+   npm start
+   ```
 
 
 <!-- USAGE EXAMPLES -->
