@@ -52,10 +52,11 @@ A list of commonly used resources that we find helpful are listed in the acknowl
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [GraphQL](https://graphql.org/)
+* [React](https://reactjs.org/)
+* [JavaScript](https://www.javascript.com/)
+* [Firebase](https://https://firebase.google.com/)
+* [AdobeXd](https://www.adobe.com/)
 
 
 
