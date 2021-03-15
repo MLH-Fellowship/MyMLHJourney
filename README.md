@@ -29,6 +29,10 @@
   </ol>
 </details>
 
+![License](https://img.shields.io/github/license/MLH-Fellowship/MyMLHJourney?style=for-the-badge)
+![Size](https://img.shields.io/github/languages/code-size/MLH-Fellowship/MyMLHJourney?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/MLH-Fellowship/MyMLHJourney?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/MLH-Fellowship/MyMLHJourney?style=for-the-badge)
 
 
 <!-- ABOUT THE PROJECT -->
