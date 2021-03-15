@@ -1,10 +1,5 @@
 import Rreact, { Component } from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./styles/landingPage.css";
 import Navbar from "../components/navbar";
 import globe from "./images/globe.png";
@@ -23,8 +18,8 @@ class LandingPage extends Component {
           <Navbar />
           <section className="two-columns">
             <div className="header-section">
-              <h1 id="header-title">
-                Welcome to <br /> Your MLH Journey
+              <h1 id="header-title" className="mlh-journey">
+                Welcome to Your MLH Journey
               </h1>
               <button>TRACK MY JOURNEY</button>
             </div>
@@ -40,7 +35,7 @@ class LandingPage extends Component {
               <img className="sticky" src={sun} />
             </div>
             <section className="center-text top-overlay">
-              <h1 id="header-title">
+              <h1 id="main-title">
                 Get a Glimpse of <br /> Your Progress
               </h1>
               <p>
@@ -51,26 +46,26 @@ class LandingPage extends Component {
 
             <section className="two-columns ">
               <div className="center-image">
-                <img src={card} />
+                <img className="data" src={card} />
               </div>
               <div className="center-image">
-                <img src={card} />
+                <img className="data" src={card} />
               </div>
             </section>
 
             <section className="two-columns">
               <div className="center-image">
-                <img src={card} />
+                <img className="data" src={card} />
               </div>
               <div className="center-image">
-                <img src={card} />
+                <img className="data" src={card} />
               </div>
             </section>
           </div>
           <br />
 
           <section className="center-text">
-            <img src={MovingCircles} />
+            <img id="moving-circles" src={MovingCircles} />
             <p>It is time to discover your journey</p>
           </section>
           <section className="last-section">
