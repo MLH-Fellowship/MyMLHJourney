@@ -34,18 +34,56 @@ img{
     font-size: 35px;
 }
 
-#location{
+.location{
     background-color: #DC3223;
     border-radius: 8px;
     height: 50px;
     font-size: 35px;
-    width: 70%;
-    margin-right: 5%;
-   /* margin-left: center;
-   margin-right: center; */
+    width: 60%;
+    display: flex;
+    align-items: center;
 }
-
+p.location {
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+}
 .first-card-data{
     margin-top: 2%;
     margin-left: -15%;
+}
+
+ul.social-media-list img {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #DC3223;
+    box-shadow: 0 0 4px #FF0000;
+    width: 36px;
+    height: 36px;
+}
+
+
+ul.social-media-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.social-media-list li {
+    display: inline-block;
+    margin:4px;
+}
+
+ul.social-media-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0px;
+    /* eliminate space between li */
+}
+
+ul.social-media-list img:hover {
+    background-color: #3FD59F;
+        box-shadow: 0 0 6px #3FD59F;
+
 }
