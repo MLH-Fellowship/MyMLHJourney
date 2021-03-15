@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="MyMLHJourneyLogo.png" alt="Logo" >
+    <img src="MyMLHJourneyLogo.png" alt="Logo" width="500" height="100">
   </a>
 
 <!-- TABLE OF CONTENTS -->
