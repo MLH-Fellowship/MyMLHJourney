@@ -64,6 +64,8 @@ A list of commonly used resources that we find helpful are listed in the acknowl
     <img src="https://media.giphy.com/media/FDjXr2F6VXLf64VBvz/giphy.gif" alt="Logo">
 <p/>
 
+## Deployed @https://mymlhjourney.netlify.app/
+
 ## Built With 💻☀️
 
 * [GraphQL](https://graphql.org/)
