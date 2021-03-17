@@ -134,6 +134,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 3. Grace Omotoso - gracomot@gmail.com
 4. Angelina Gasharova - andji.gash@gmail.com
 
+* Special thanks to [Pawan Kolhe](https://github.com/PawanKolhe) for helping with props and routing in React!
+
 Project Link: [https://github.com/MLH-Fellowship/MyMLHJourney](https://github.com/MLH-Fellowship/MyMLHJourney)
 
 
