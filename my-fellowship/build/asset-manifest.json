@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b9d2f5f7.chunk.css",
+    "main.js": "/static/js/main.20dab861.chunk.js",
+    "main.js.map": "/static/js/main.20dab861.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f2af9ed2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f2af9ed2.js.map",
+    "static/js/2.70bceae4.chunk.js": "/static/js/2.70bceae4.chunk.js",
+    "static/js/2.70bceae4.chunk.js.map": "/static/js/2.70bceae4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b9d2f5f7.chunk.css.map": "/static/css/main.b9d2f5f7.chunk.css.map",
+    "static/js/2.70bceae4.chunk.js.LICENSE.txt": "/static/js/2.70bceae4.chunk.js.LICENSE.txt",
+    "static/media/landingPage.css": "/static/media/sun.2111e23f.png",
+    "static/media/fellowship.afb8af98.png": "/static/media/fellowship.afb8af98.png",
+    "static/media/first-card-background.8f1d486b.gif": "/static/media/first-card-background.8f1d486b.gif",
+    "static/media/globe.8c0b088b.png": "/static/media/globe.8c0b088b.png",
+    "static/media/hills.741c3d8e.png": "/static/media/hills.741c3d8e.png",
+    "static/media/last-section.7f364f57.gif": "/static/media/last-section.7f364f57.gif",
+    "static/media/login-background.bc5fe5de.gif": "/static/media/login-background.bc5fe5de.gif",
+    "static/media/menu.509b4617.svg": "/static/media/menu.509b4617.svg",
+    "static/media/moving-circles2.59e9690a.gif": "/static/media/moving-circles2.59e9690a.gif",
+    "static/media/profile_overview.1f7d0d28.png": "/static/media/profile_overview.1f7d0d28.png",
+    "static/media/second-card-background.eb1eca0a.gif": "/static/media/second-card-background.eb1eca0a.gif",
+    "static/media/third-card-background2.bbc66106.gif": "/static/media/third-card-background2.bbc66106.gif",
+    "static/media/track_contributions.3c480f1e.png": "/static/media/track_contributions.3c480f1e.png",
+    "static/media/track_people.d935aa3d.png": "/static/media/track_people.d935aa3d.png",
+    "static/media/track_progress.b0f0aafe.png": "/static/media/track_progress.b0f0aafe.png",
+    "static/media/x.8afc911a.svg": "/static/media/x.8afc911a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2af9ed2.js",
+    "static/js/2.70bceae4.chunk.js",
+    "static/css/main.b9d2f5f7.chunk.css",
+    "static/js/main.20dab861.chunk.js"
+  ]
+}

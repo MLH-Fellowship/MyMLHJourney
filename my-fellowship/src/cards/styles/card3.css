@@ -35,5 +35,8 @@ img {
 .counter-numbers{
     font-size: 58px;
     color: white;
-    font: normal normal normal 92px/105px Gang of Three;
+     font-family: 'Righteous', cursive;
+     font-weight: bold;
+           text-transform: uppercase;
+
 }

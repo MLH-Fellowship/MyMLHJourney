@@ -23,7 +23,11 @@ body{
 }
 
 #header-title {
-    font: normal normal normal 92px/105px Gang of Three;
+   font-family: 'Righteous',
+   cursive;
+   font-weight: bold;
+         text-transform: uppercase;
+
     font-size: 90px;
     color: white;
     line-height: 85pt;
@@ -170,7 +174,11 @@ h4 {
 
   #main-title {
       /* margin-top: 20%; */
-      font: normal normal normal 92px/105px Gang of Three;
+       font-family: 'Righteous',
+       cursive;
+       font-weight: bold;
+             text-transform: uppercase;
+
       font-size: 35px;
       color: white;
       line-height: 60pt;
@@ -226,7 +234,10 @@ h4 {
 @media (max-width: 1500px) {
      #header-title {
          /* margin-top: 20%; */
-         font: normal normal normal 92px/105px Gang of Three;
+          font-family: 'Righteous',
+          cursive;
+          font-weight: bold;
+         text-transform: uppercase;
          font-size: 50px;
          color: white;
          line-height: 60pt;
@@ -255,9 +266,12 @@ h4 {
 @media (max-width: 1200px) {
      #header-title {
          /* margin-top: 20%; */
-         font: normal normal normal 92px/105px Gang of Three;
+         font-family: 'Righteous',
+         cursive;
+         font-weight: bold;
          font-size: 45px;
          color: white;
+         text-transform: uppercase;
          line-height: 60pt;
          text-align: left;
          /* margin-left: -15%; */
@@ -285,9 +299,13 @@ h4 {
 @media (max-width: 1085px) {
      #header-title {
          /* margin-top: 20%; */
-         font: normal normal normal 92px/105px Gang of Three;
+         font-family: 'Righteous',
+         cursive;
+         font-weight: bold;
+         text-transform: uppercase;
          font-size: 55px;
          color: white;
+         text-transform: uppercase;
          line-height: 60pt;
          text-align: left;
          /* margin-left: -15%; */
@@ -317,10 +335,13 @@ h4 {
      }
      #header-title {
          /* margin-top: 20%; */
-         font: normal normal normal 92px/105px Gang of Three;
+          font-family: 'Righteous',
+          cursive;
+          font-weight: bold;
          font-size: 50px;
          color: white;
          line-height: 40pt;
+         text-transform: uppercase;
          text-align: left;
          /* margin-left: -15%; */
      }
@@ -349,10 +370,13 @@ h4 {
     }
     #header-title {
         /* margin-top: 20%; */
-        font: normal normal normal 92px/105px Gang of Three;
+         font-family: 'Righteous',
+         cursive;
+         font-weight: bold;
         font-size: 40px;
         color: white;
         line-height: 35pt;
+        text-transform: uppercase;
         text-align: left;
         /* margin-left: -15%; */
     }
@@ -381,9 +405,12 @@ h4 {
 @media (max-width: 540px) {
     #header-title {
         margin-top: 20%;
-        font: normal normal normal 92px/105px Gang of Three;
+       font-family: 'Righteous',
+       cursive;
+       font-weight: bold;
         font-size: 40px;
         color: white;
+         text-transform: uppercase;
         line-height: 40pt;
         text-align: center;
        margin-left: -15%;
@@ -411,10 +438,13 @@ h4 {
 @media (max-width: 350px) {
     #header-title {
         margin-top: 20%;
-        font: normal normal normal 92px/105px Gang of Three;
+         font-family: 'Righteous',
+         cursive;
+         font-weight: bold;
         font-size: 35px;
         color: white;
         line-height: 40pt;
+         text-transform: uppercase;
         text-align: center;
     }
     #globe {
